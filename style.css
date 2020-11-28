@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,400&display=swap');
+
+:root{
+    --primary-color:#2563EB;
+    --other-color:#A78BFA;
+    --owcolor:grey;
+    --bgcolor:#FBCFE8;
+}
+
+body{
+    font-family: 'Lora', serif;
+}
+hr{
+    margin: 2rem 0rem;
+}
+
+.container-fluid{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin:auto;
+}
+
+.link{
+    text-decoration: none;
+    padding:0.5rem 1rem;
+    
+    
+}
+.link-primary{
+    color: var(--primary-color);
+   background-color:var(--primary-color);
+   color:white;
+   border-radius: 0.5rem;
+   padding: 0.5rem;
+
+    
+}
+ .link-secondary{
+     border-radius: 0.5rem;
+      border: 1px solid var(--primary-color);
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-non-bullet-inline{
+display: inline;
+
+}
+.list-item-inline{
+display: inline;
+padding:1rem 0.5rem;                                 
+}
+
+.navigation{
+    background-color:var(--primary-color);
+    padding: 1rem;
+    color: white;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .navbrand{
+     font-weight:bold ;
+    
+     
+}
+.navigation .link{
+    color:white;
+    text-decoration-style:solid;
+    font-weight:bold ;
+    
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link-active{
+    font-weight: bold
+}
+.hero{
+    font:1rem;
+}
+
+.hero .hero-image{
+    max-width: 500px;
+    margin:auto;
+    display:block;
+    padding: 2rem;
+ }
+
+ .hero .hero-heading{
+     font: outline;
+     text-align: center;
+     color:var(--other-color);
+     padding-top: 1rem;
+ }
+ .hero .highlight{
+     color: var(--primary-color);
+ }
+
+ .section{
+     padding: 1rem;
+ }
+ .section h1{
+     text-align: center;
+     
+
+ }
+  .ow{
+ background-color: var(--owcolor);
+  }
+
+ .footer{
+     background-color: var(--bgcolor);
+     padding: 2rem 1rem;
+     text-align:center;
+     border-top-right-radius: 1rem;
+ }
+ .footer .link{
+     color:black;
+     text-align: center;
+ }
+ .footer ul{
+    padding-inline-start: 0px;
+ }
