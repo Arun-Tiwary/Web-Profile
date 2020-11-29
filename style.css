@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,400&display=swap');
 
 :root{
-    --primary-color:#3B82F6;
+    --primary-color:#1E3A8A;
     --other-color:#A78BFA;
     --owcolor:#DBEAFE;
     --bgcolor:#FBCFE8;
@@ -11,6 +11,14 @@ body{
     font-family: 'Lora', serif;
 
 }
+
+
+
+::selection {
+    color: red;
+    background: yellow;
+  }
+
 hr{
     margin: 2rem 0rem;
 }
@@ -27,9 +35,15 @@ hr{
 .link{
     text-decoration: none;
     padding:0.5rem 1rem;
+
     
     
 }
+
+.link-active{
+    font-weight: bold;
+}
+
 .link-primary{
     color: var(--primary-color);
    background-color:var(--primary-color);
@@ -90,12 +104,13 @@ padding:1rem 0.5rem;
     max-width: 500px;
     margin:auto;
     display:block;
-    padding: 2rem;
+    padding-top: 5rem;
  }
 
  .hero .hero-heading{
      font: outline;
      text-align: center;
+     border-left-width: 40%;
      color:var(--other-color);
      padding-top: 1rem;
  }
@@ -104,7 +119,8 @@ padding:1rem 0.5rem;
  }
 
  .section{
-     padding: 1rem;
+     padding: 0.5rem 2rem;
+     padding-bottom: 2rem;
  }
  .section h1{
      text-align: center;
@@ -116,14 +132,22 @@ padding:1rem 0.5rem;
   }
 
  .footer{
-     background-color: var(--bgcolor);
+     background-color: var(--primary-color);
      padding: 2rem 1rem;
      text-align:center;
      border-top-right-radius: 1rem;
+     border-width: 2ch;
  }
+ .footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+    color: white;
+ }
+
  .footer .link{
-     color:black;
+     color:white;
      text-align: center;
+
  }
  .footer ul{
     padding-inline-start: 0px;
