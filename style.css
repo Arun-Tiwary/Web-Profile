@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,400&display=swap');
 
 :root{
-    --primary-color:#2563EB;
+    --primary-color:#3B82F6;
     --other-color:#A78BFA;
-    --owcolor:grey;
+    --owcolor:#DBEAFE;
     --bgcolor:#FBCFE8;
 }
 
 body{
     font-family: 'Lora', serif;
+
 }
 hr{
     margin: 2rem 0rem;
