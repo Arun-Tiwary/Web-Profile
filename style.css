@@ -40,7 +40,10 @@ hr{
     
 }
 
+
 .link-active{
+    font-weight: bold;
+    font-size: large;
     font-weight: bold;
 }
 
@@ -78,7 +81,7 @@ padding:1rem 0.5rem;
     border-bottom-left-radius: 1rem;
 }
 .navigation .navbrand{
-     font-weight:bold ;
+     /* font-weight:bold ; */
     
      
 }
@@ -101,7 +104,7 @@ padding:1rem 0.5rem;
 }
 
 .hero .hero-image{
-    max-width: 500px;
+    max-width: 380px;
     margin:auto;
     display:block;
     padding-top: 5rem;
@@ -135,9 +138,9 @@ padding:1rem 0.5rem;
      background-color: var(--primary-color);
      padding: 2rem 1rem;
      text-align:center;
-     border-top-right-radius: 1rem;
+     border-bottom-right-radius: 1rem;
      border-width: 2ch;
-     margin-top: 1%;
+     
  }
  .footer .footer-header{
     font-weight: bold;
