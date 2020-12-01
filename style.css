@@ -79,8 +79,10 @@ padding:1rem 0.5rem;
     padding: 1rem;
     color: white;
     border-bottom-left-radius: 1rem;
-    width: 350px;
     max-width: 100%;
+    display: block;
+    margin: auto;
+   
 }
 .navigation .navbrand{
      /* font-weight:bold ; */
