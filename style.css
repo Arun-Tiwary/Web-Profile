@@ -82,13 +82,13 @@ padding:1rem 0.5rem;
     max-width: 100%;
     display: block;
     margin: auto;
+
+    /* position: fixed;
+top: 0;
+width: 100%; */
    
 }
-.navigation .navbrand{
-     /* font-weight:bold ; */
-    
-     
-}
+
 .navigation .link{
     color:white;
     text-decoration-style:solid;
@@ -161,3 +161,15 @@ padding:1rem 0.5rem;
  .footer ul{
     padding-inline-start: 0px;
  }
+ div.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  strong{
+      
+      font: outline;
+      color: #1E3A8A;
+  }
